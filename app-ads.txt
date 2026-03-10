@@ -7,10 +7,10 @@ unity.com, 220455, DIRECT
 is.com, 220455, DIRECT
 
 # === Facebook / Meta Audience Network ===
-facebook.com, 1056896971837556, RESELLER, c3e20eee3f780d68
+facebook.com, 1056896971837556, DIRECT, c3e20eee3f780d68
 
-# === InMobi (via mediation) ===
-inmobi.com, e3e2284e21964d3ea19238a697801ed6, RESELLER, 83e75a7ae333ca9d
+# === InMobi ===
+inmobi.com, e3e2284e21964d3ea19238a697801ed6, DIRECT, 83e75a7ae333ca9d
 
 # === Resellers (mediation demand chain) ===
 blis.com, 33, RESELLER, 61453ae19a4b73f4
