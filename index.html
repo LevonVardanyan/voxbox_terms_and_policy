@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VoxBox Audio Mixer - Multitrack Audio Studio</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      background: linear-gradient(135deg, #1A2234 0%, #151B28 50%, #0D1117 100%);
-      color: #c9d1d9; min-height: 100vh;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      text-align: center; padding: 40px 24px;
-    }
-    .logo {
-      width: 100px; height: 100px; border-radius: 22px;
-      background: linear-gradient(135deg, #6572A7, #5DB3E3);
-      display: flex; align-items: center; justify-content: center;
-      margin-bottom: 24px; font-size: 48px;
-    }
-    h1 { color: #e6edf3; font-size: 32px; margin-bottom: 8px; }
-    .tagline { color: #5DB3E3; font-size: 18px; margin-bottom: 32px; }
-    .description { max-width: 500px; font-size: 15px; line-height: 1.7; margin-bottom: 40px; color: #8b949e; }
-    .links { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; margin-bottom: 40px; }
-    .links a {
-      color: #5DB3E3; text-decoration: none; font-size: 14px;
-      padding: 10px 20px; border: 1px solid #30363d; border-radius: 8px;
-      transition: border-color 0.2s;
-    }
-    .links a:hover { border-color: #5DB3E3; }
-    .store-links { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-bottom: 40px; }
-    .store-btn {
-      display: inline-block; padding: 12px 28px; border-radius: 8px;
-      background: linear-gradient(135deg, #6572A7, #5DB3E3);
-      color: #fff; text-decoration: none; font-weight: 600; font-size: 15px;
-      transition: opacity 0.2s;
-    }
-    .store-btn:hover { opacity: 0.9; }
-    .footer { color: #484f58; font-size: 13px; margin-top: auto; padding-top: 40px; }
-    .footer a { color: #484f58; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VoxBox — AI Video & Audio Editor</title>
+<meta name="description" content="VoxBox is an all-in-one AI video and audio editor for iOS and Android: multitrack audio mixer, video editor, AI video generator with 7 top models, drum pad, and AI-powered tools.">
+<link rel="icon" href="/icon.jpg">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="logo">🎵</div>
-  <h1>VoxBox Audio Mixer</h1>
-  <p class="tagline">Multitrack Audio Studio</p>
-  <p class="description">
-    Record, mix, and produce professional audio on your phone.
-    Multi-track mixing, audio effects, voice FX, AI-powered tools, and more.
-  </p>
-
-  <div class="store-links">
-    <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.zaza.beatbox" target="_blank" rel="noopener">Google Play</a>
-    <a class="store-btn" href="https://apps.apple.com/app/id123456789" target="_blank" rel="noopener">App Store</a>
-  </div>
-
+<div class="wrap">
+<nav>
+  <a class="logo" href="/"><img src="/icon.jpg" alt="VoxBox"> VoxBox</a>
   <div class="links">
-    <a href="/privacy-policy">Privacy Policy</a>
-    <a href="/terms-of-use">Terms of Use</a>
+    <a href="#features">Features</a>
+    <a href="/models/">AI Models</a>
+    <a href="/faq/">FAQ</a>
     <a href="/support">Support</a>
-    <a href="mailto:zazamediaapps@gmail.com">Contact</a>
+    <a href="/press/">Press</a>
   </div>
+</nav>
 
-  <p class="footer">&copy; 2026 Zaza Apps. All rights reserved.</p>
+<div class="hero">
+  <h1>Create <span class="grad">video & music</span><br>with AI in your pocket</h1>
+  <p>VoxBox is the all-in-one creative studio for iOS and Android — a professional multitrack audio mixer, a full video editor, and an AI video generator powered by the world's best models.</p>
+  <div class="badges">
+    <a class="badge" href="https://play.google.com/store/apps/details?id=com.zaza.beatbox"><span>▶</span><span><small>GET IT ON</small>Google Play</span></a>
+    <a class="badge" href="https://apps.apple.com/us/app/voxbox-ai-video-audio-editor/id6758082200"><span></span><span><small>DOWNLOAD ON THE</small>App Store</span></a>
+  </div>
+</div>
+
+<section id="features">
+  <h2>Four studios in one app</h2>
+  <div class="grid">
+    <div class="card"><span class="ico">🎬</span><h3>AI Video Generator</h3><p>Type an idea — get a video. Choose between Veo 3.1, Kling, Grok Imagine, Seedance and more. Create reusable characters, brainstorm prompts with an AI assistant, and add music or voiceover to any clip.</p></div>
+    <div class="card"><span class="ico">🎚️</span><h3>Multitrack Audio Mixer</h3><p>Unlimited tracks, precision timeline editing, effects, equalizer, voice change, vocal isolation, noise removal, and studio-grade export.</p></div>
+    <div class="card"><span class="ico">🎞️</span><h3>Video Editor</h3><p>Cut, layer and animate. Text, stickers, shapes with gradients and shadows, filters, keyframes, transitions, auto-captions — export up to 4K.</p></div>
+    <div class="card"><span class="ico">🥁</span><h3>Drum Pad</h3><p>Build beats with a customizable pad grid and step sequencer, record performances, and send them straight into the mixer.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>AI tools built in</h2>
+  <p class="sub">Every tool runs right inside your project — no exporting back and forth.</p>
+  <div class="pillrow">
+    <span class="pill">🎤 Text to Speech</span>
+    <span class="pill">📝 Speech to Text</span>
+    <span class="pill">🎵 Music Generation</span>
+    <span class="pill">💥 Sound Effects</span>
+    <span class="pill">🎙️ Vocal Isolation</span>
+    <span class="pill">🔇 AI Denoise</span>
+    <span class="pill">💬 Auto Captions</span>
+    <span class="pill">🎨 AI Color Adjust</span>
+  </div>
+</section>
+
+<section>
+  <h2>Consistent AI characters</h2>
+  <p class="sub">Create a character once — from a photo or a description — then mention them with <b>@name</b> in any prompt. VoxBox keeps them looking the same in every video you generate.</p>
+</section>
+
+<footer>
+  <div class="cols">
+    <div>
+      <b style="color:var(--text)">VoxBox</b><br>by Zaza Media Apps<br>
+      <a href="mailto:development@zazavoxbox.com">development@zazavoxbox.com</a>
+    </div>
+    <div>
+      <a href="/terms-of-use">Terms of Use</a><br>
+      <a href="/privacy-policy">Privacy Policy</a><br>
+      <a href="/support">Support</a>
+    </div>
+    <div>
+      <a href="/models/">AI Models</a><br>
+      <a href="/faq/">FAQ</a><br>
+      <a href="/press/">Press Kit</a>
+    </div>
+  </div>
+</footer>
+</div>
 </body>
 </html>
